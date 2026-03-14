@@ -10,7 +10,7 @@ HARMONIC insight のプロダクトリリースを管理するリポジトリで
 
 | 製品 | 説明 | 最新バージョン |
 |------|------|:--------------:|
-| Insight Training Studio (INMV) | 教育動画作成ツール | v1.1.0 |
+| Insight Training Studio (INMV) | 教育動画作成ツール | v1.0.3 |
 
 ## インストール方法
 
