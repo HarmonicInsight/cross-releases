@@ -8,12 +8,18 @@ HARMONIC insight のプロダクトリリースを管理するリポジトリで
 
 ## 製品一覧
 
-| 製品 | 説明 | 最新バージョン |
-|------|------|:--------------:|
-| Insight Training Studio (INMV) | 教育動画作成ツール | v1.0.3 |
+| 製品 | プラットフォーム | 説明 | 最新バージョン |
+|------|:---:|------|:--------------:|
+| スッキリカメラ (Insight Camera) | Android | シンプルで美しいカメラアプリ | v1.0.0 |
+| Insight Training Studio (INMV) | Windows | 教育動画作成ツール | v1.0.3 |
 
 ## インストール方法
 
+### Android アプリ
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.harmonic.insight.camera) からインストール
+- または Releases ページから APK をダウンロードしてサイドロード
+
+### Windows アプリ
 1. Releases ページから最新のインストーラー (.exe) をダウンロード
 2. ダウンロードしたファイルを実行
 3. 画面の指示に従ってインストール
