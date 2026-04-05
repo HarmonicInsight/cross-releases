@@ -32,6 +32,7 @@ HARMONIC insight のプロダクトリリースを管理するリポジトリで
 |--------|------|------|
 | `.icproj` | Insight Training Studio | プロジェクトファイルをダブルクリックで開く |
 | `.iosh` | Insight Performance Management | プロジェクトファイルをダブルクリックで開く |
+| `.inss` | Insight Deck Quality Gate | プロジェクトファイルをダブルクリックで開く |
 
 ## ライセンス
 
