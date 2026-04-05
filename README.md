@@ -12,6 +12,8 @@ HARMONIC insight のプロダクトリリースを管理するリポジトリで
 |------|:---:|------|:--------------:|
 | スッキリカメラ (Insight Camera) | Android | シンプルで美しいカメラアプリ | v1.0.0 |
 | Insight Training Studio (INMV) | Windows | 教育動画作成ツール | v1.0.3 |
+| Insight Performance Management (IOSH) | Windows | Excel版管理・AI分析ツール | v1.0.4 |
+| Insight Deck Quality Gate (INSS) | Windows | PowerPointコンテンツ管理・AI編集ツール | v1.0.4 |
 
 ## インストール方法
 
@@ -29,6 +31,7 @@ HARMONIC insight のプロダクトリリースを管理するリポジトリで
 | 拡張子 | 製品 | 説明 |
 |--------|------|------|
 | `.icproj` | Insight Training Studio | プロジェクトファイルをダブルクリックで開く |
+| `.iosh` | Insight Performance Management | プロジェクトファイルをダブルクリックで開く |
 
 ## ライセンス
 
