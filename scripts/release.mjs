@@ -65,10 +65,6 @@ const PRODUCTS = {
     name: "Insight AI Doc Factory",
     assetPattern: /^InsightAiDocFactory_Setup_(.+)\.zip$/i,
   },
-  INAG: {
-    name: "Insight Agent",
-    assetPattern: /^InsightAgent_Setup_(.+)\.zip$/i,
-  },
   IAOF: {
     name: "Insight AI Office",
     assetPattern: /^InsightAiOffice_Setup_(.+)\.zip$/i,
