@@ -1,4 +1,4 @@
-## Insight Doc Translator v1.0.8
+## Insight Doc Translator v1.0.4
 
 ### DOCX 画像翻訳パイプライン
 - **DocxImageService**: Word ドキュメント内の画像に対する OCR → 翻訳 → 差し戻しのパイプラインを実装
