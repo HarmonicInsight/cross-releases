@@ -11,7 +11,7 @@ HARMONIC insight のプロダクトリリースを管理するリポジトリで
 | 製品 | プラットフォーム | 説明 | 最新バージョン |
 |------|:---:|------|:--------------:|
 | スッキリカメラ (Insight Camera) | Android | シンプルで美しいカメラアプリ | v1.0.0 |
-| Insight Training Studio (INMV) | Windows | 教育動画作成ツール | v1.0.3 |
+| Insight Training Studio (INMV) | Windows | 教育動画作成ツール | v1.0.7 |
 | Insight Performance Management (IOSH) | Windows | Excel版管理・AI分析ツール | v1.0.4 |
 | Insight Deck Quality Gate (INSS) | Windows | PowerPointコンテンツ管理・AI編集ツール | v1.0.4 |
 | Insight Doc Translator (INST) | Windows | AI多言語ドキュメント翻訳ツール | v1.0.1 |
