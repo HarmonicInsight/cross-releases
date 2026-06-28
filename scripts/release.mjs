@@ -69,6 +69,10 @@ const PRODUCTS = {
     name: "Insight AI Office",
     assetPattern: /^InsightAiOffice_Setup_(.+)\.zip$/i,
   },
+  INPY: {
+    name: "InsightPy",
+    assetPattern: /^InsightPy_Setup_(.+)\.zip$/i,
+  },
 };
 
 const LICENSE_BASE = (process.env.LICENSE_BASE || "https://license.h-insight.jp").replace(/\/$/, "");

@@ -17,6 +17,7 @@ Download installers from the [Releases page](https://github.com/HarmonicInsight/
 | Insight Performance Management (IOSH) | Windows | Excel-based management & AI analysis | v1.0.5 |
 | Insight Deck Quality Gate (INSS) | Windows | PowerPoint content management & AI editing | v1.0.5 |
 | Insight Doc Translator (INST) | Windows | AI-powered multilingual document translation | v1.0.4 |
+| InsightPy (INPY) | Windows | Python learning & automation studio (bundled Python, RPA) | v1.0.0 |
 
 ## Installation
 
@@ -28,11 +29,24 @@ Download installers from the [Releases page](https://github.com/HarmonicInsight/
 1. Download the latest installer (`.exe`) from the Releases page
 2. Run the installer and follow the on-screen instructions
 
-> **Note about Windows SmartScreen**
->
-> The installer is currently distributed **unsigned**. Windows SmartScreen may show
-> *"Windows protected your PC"*. To proceed, click **More info → Run anyway**.
-> Code signing is on our roadmap for upcoming releases.
+### If Windows SmartScreen blocks the installer
+
+Our installers are currently distributed **unsigned** (code signing is on our roadmap).
+When you run the installer for the first time, Windows may show a blue full-screen warning:
+
+> **Windows protected your PC**
+> Microsoft Defender SmartScreen prevented an unrecognized app from starting.
+> Running this app might put your PC at risk.
+
+This warning is shown for **all new or low-volume Windows installers** — it does not mean the
+file is malicious. To install our app:
+
+1. On the blue warning screen, click **More info** (small link below the message)
+2. A **Run anyway** button will appear — click it to start the installer
+3. The Windows UAC prompt (yes/no) will follow — click **Yes** to proceed
+
+To verify the installer is genuine before running, check the SHA-256 hash against the values
+published below (see *Verifying downloads*).
 
 ## Verifying downloads (SHA-256)
 
@@ -51,6 +65,15 @@ BF671964DE39A5F04125310036F7971B8F1803CE6889B94F98E114E7AFEF7DA9  InsightTrainin
 ```
 EF1E4B950FE0BE4F5853E7C3BE3C7D5A5F0037A2401FD77E30D17CD7B9B5E09E  InsightDocTranslator_Setup_1.0.4.exe
 DA313351AA1C8EDA98F78D1EEACFB82F5272F7DBA8D253ECE000EE975D0C7FB8  InsightDocTranslator_Setup_1.0.4.zip
+```
+
+### InsightPy v1.0.0
+
+> EV code-signed (GlobalSign EV · HARMONIC insight LLC) — no SmartScreen "unknown publisher" warning.
+
+```
+20134C075AF38379EE6E51C208258E6C9231A6F32A8DB972CD7AEAF3AE9B9DE9  InsightPy_Setup_1.0.0.exe
+BC83BAA0F92499C4A11BD952581AEAE5357E5B16515A06536CECBE15EA1B0A5F  InsightPy_Setup_1.0.0.zip
 ```
 
 ### How to verify (PowerShell)
