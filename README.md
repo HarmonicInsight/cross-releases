@@ -17,7 +17,7 @@ Download installers from the [Releases page](https://github.com/HarmonicInsight/
 | Insight Performance Management (IOSH) | Windows | Excel-based management & AI analysis | v1.0.5 |
 | Insight Deck Quality Gate (INSS) | Windows | PowerPoint content management & AI editing | v1.0.5 |
 | Insight Doc Translator (INST) | Windows | AI-powered multilingual document translation | v1.0.4 |
-| InsightPy (INPY) | Windows | Python learning & automation studio (bundled Python, RPA) | v1.0.0 |
+| InsightPy (INPY) | Windows | Python learning & automation studio (bundled Python, RPA) | v1.0.1 |
 
 ## Installation
 
@@ -67,13 +67,13 @@ EF1E4B950FE0BE4F5853E7C3BE3C7D5A5F0037A2401FD77E30D17CD7B9B5E09E  InsightDocTran
 DA313351AA1C8EDA98F78D1EEACFB82F5272F7DBA8D253ECE000EE975D0C7FB8  InsightDocTranslator_Setup_1.0.4.zip
 ```
 
-### InsightPy v1.0.0
+### InsightPy v1.0.1
 
-> EV code-signed (GlobalSign EV · HARMONIC insight LLC) — no SmartScreen "unknown publisher" warning.
+> EV code-signed (GlobalSign EV · HARMONIC insight LLC). As a brand-new publisher, SmartScreen may still show an "unrecognized app" prompt on the first downloads until reputation builds — click **More info** → **Run anyway** (the publisher shows as HARMONIC INSIGHT LLC).
 
 ```
-A66F89662776FDBFD840A704372C795175783530F96912CF2F0A2CCD96EB5282  InsightPy_Setup_1.0.0.exe
-D56D03F3EFBCD9C143564A16279CC481333FFEE7408B32C3228D3997A8F7AF3A  InsightPy_Setup_1.0.0.zip
+326283857D4B325EBD7E33ABA2196D851F416EE3AF8C61097CB00B0DD3ADA0A1  InsightPy_Setup_1.0.1.exe
+9FA1ED76FAFFE7171D46827050BE64E90C7F1807B4AD28F5037ABAB8D7968E58  InsightPy_Setup_1.0.1.zip
 ```
 
 ### How to verify (PowerShell)
