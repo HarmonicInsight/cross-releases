@@ -1,11 +1,11 @@
 ## InsightPy v1.0.0
 
-> **TL;DR (English)** — First public release of InsightPy: a Python learning + business-automation studio for Windows. Bundled Python (no install), a free 96-lesson learning center, multi-file projects with package folders, BYOK AI code generation, scheduled/sequential runs, and an EV code-signed installer.
+> **TL;DR (English)** — First public release of InsightPy: a Python learning + business-automation studio for Windows. Bundled Python (no install), a free 78-lesson learning center linked 1:1 to the "Zero-to-Python" YouTube course, multi-file projects with package folders, BYOK AI code generation, scheduled/sequential runs, a no-registration 30-day full trial, and an EV code-signed installer.
 
 InsightPy（Python スタジオ）の初回公開リリースです。書いて・学んで・実行し、Office／データ／Web／RPA を自動化できる Windows デスクトップアプリです。
 
 ### 学習（無料）
-- **学習センター**: 「ゼロからの Python（高校情報I 準拠）」71 レッスン ＋ すぐ使えるサンプル 25 本（日英）
+- **学習センター**: 「ゼロからの Python（高校情報I 準拠）」78 レッスン ＋ すぐ使えるサンプル集（日英）。YouTube 講座「ゼロからのPython」全78回と1レッスンずつ連動し、アプリから該当動画をワンクリックで再生
 - **クラスとモジュール（発展）章**: クラス入門〜継承、モジュール、複数ファイルのプロジェクト構成まで
 - 実行ステップ可視化（Python Tutor 型）／日本語エラー解説（ルールベース・キー不要）／🎓 先生にきく（ソクラテス式）
 - AI なし静的コードチェック（構文・未定義名・定番ミス。オフライン・課金ゼロ）
@@ -25,13 +25,17 @@ InsightPy（Python スタジオ）の初回公開リリースです。書いて�
 - **EV コード署名済み**（GlobalSign EV・HARMONIC insight LLC）。SmartScreen 警告を回避
 - API キー・アセットは端末内で DPAPI 暗号化保存。コード・ファイルはクラウドへ自動送信しません
 
+### トライアル / ライセンス
+- **インストール（初回起動）から30日間、全機能をフルに利用可能**。ライセンスキーの入力も登録も不要
+- 30日経過後は自動的に無料版（学習センター・標準ライブラリ実行が中心）に切り替わり、業務で継続利用する場合に BIZ ライセンスを購入
+
 ### 動作環境
 - Windows 10（64bit, バージョン1809以降）/ Windows 11、ディスク約 500MB
 
 ### SHA-256 (asset integrity)
 ```
-BC83BAA0F92499C4A11BD952581AEAE5357E5B16515A06536CECBE15EA1B0A5F  InsightPy_Setup_1.0.0.zip
-20134C075AF38379EE6E51C208258E6C9231A6F32A8DB972CD7AEAF3AE9B9DE9  InsightPy_Setup_1.0.0.exe
+D56D03F3EFBCD9C143564A16279CC481333FFEE7408B32C3228D3997A8F7AF3A  InsightPy_Setup_1.0.0.zip
+A66F89662776FDBFD840A704372C795175783530F96912CF2F0A2CCD96EB5282  InsightPy_Setup_1.0.0.exe
 ```
 
 Verify on Windows: `Get-FileHash InsightPy_Setup_1.0.0.zip -Algorithm SHA256`
