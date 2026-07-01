@@ -17,7 +17,7 @@ HARMONIC insight のプロダクトリリースを管理するリポジトリで
 | Insight Performance Management (IOSH) | Windows | Excel 版管理・AI 分析ツール | v1.0.5 |
 | Insight Deck Quality Gate (INSS) | Windows | PowerPoint コンテンツ管理・AI 編集ツール | v1.0.5 |
 | Insight Doc Translator (INST) | Windows | AI 多言語ドキュメント翻訳ツール | v1.0.4 |
-| InsightPy (INPY) | Windows | Python 学習・自動化スタジオ（Python 同梱・RPA） | v1.0.1 |
+| InsightPy (INPY) | Windows | Python 学習・自動化スタジオ（Python 同梱・RPA） | v1.0.2 |
 
 ## インストール方法
 
