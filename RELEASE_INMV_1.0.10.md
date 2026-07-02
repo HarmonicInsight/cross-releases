@@ -21,4 +21,5 @@ Insight Training Studio（PowerPoint→研修動画）のトライアル体験�
 - Windows 10（64bit, バージョン1809以降）/ Windows 11
 
 ### SHA-256 (asset integrity)
-- （署名後に記入）
+- InsightTrainingStudio_Setup_1.0.10.zip: `342099CA57A01E307132A6E38690B425B2073B055F44705F1255F3B2DDEE0776` (160,890,615 B)
+- InsightTrainingStudio_Setup_1.0.10.exe: `3A6CA0D00481CFDED8C01F6C07885F6F4293B45E96D2C9C3758A3DAE47EDD6A7` (161,356,952 B)

@@ -20,4 +20,5 @@ InsightPy（Python 学習＋業務自動化スタジオ）のトライアル体�
 - Windows 10（64bit, バージョン1809以降）/ Windows 11、ディスク約 500MB
 
 ### SHA-256 (asset integrity)
-- （署名後に記入）
+- InsightPy_Setup_1.0.3.zip: `182233348A32C41B41B30022C21A6F4B9CD0D3CCF4B766824F737D411CF47F71` (121,814,502 B)
+- InsightPy_Setup_1.0.3.exe: `F4E1565BB50F2B272876B7E740844FE82081263D378748DAE8DFA553C423E742` (122,336,448 B)

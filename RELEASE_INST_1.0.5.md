@@ -22,4 +22,5 @@ Insight Doc Translator（Word / Excel / PowerPoint / PDF 多言語翻訳）の�
 - Windows 10（64bit, バージョン1809以降）/ Windows 11
 
 ### SHA-256 (asset integrity)
-- （署名後に記入）
+- InsightDocTranslator_Setup_1.0.5.zip: `F36D293C1430A28CFBA4F8EEF3365B02748902EC89C71D24CC689F1E2B95E996` (85,849,339 B)
+- InsightDocTranslator_Setup_1.0.5.exe: `54C1AE9C417A601C1A6144FEE26CAADE05E55BD1894940751EC9D1C45D9D9578` (86,378,864 B)

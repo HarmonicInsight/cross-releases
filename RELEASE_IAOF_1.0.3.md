@@ -23,4 +23,5 @@ Insight Office（PDF 編集・文書比較・Excel 解析 × AI）の体験改�
 - Windows 10（64bit, バージョン1809以降）/ Windows 11
 
 ### SHA-256 (asset integrity)
-- （署名後に記入）
+- InsightAiOffice_Setup_1.0.3.zip: `F8352DC7D360615F7F79A614DC5ECAC77FE4488C27C8D66E36D74B4C4857C2BD` (80,860,209 B)
+- InsightAiOffice_Setup_1.0.3.exe: `1B33A8BF1CD7FC5F5AE95ADB7E29B6928274C53BFF0CAC122A3AC86E3A3A6E7A` (81,345,496 B)
