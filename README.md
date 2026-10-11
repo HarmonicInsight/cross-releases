@@ -1,109 +1,43 @@
-# Insight Business Suite — Releases
+# HARMONIC insight — Releases
 
 > 🇯🇵 [日本語版 README](./README.ja.md)
 
-Official release distribution for HARMONIC insight products.
-
-## Download
-
-Download installers from the [Releases page](https://github.com/HarmonicInsight/cross-releases/releases).
+Official download distribution for Windows apps by HARMONIC insight LLC.
+Product pages: **[insightoffice.io](https://insightoffice.io/?utm_source=github&utm_medium=readme&utm_campaign=cross-releases)** (English) / **[insight-office.com](https://www.insight-office.com/ja?utm_source=github&utm_medium=readme&utm_campaign=cross-releases)** (日本語)
 
 ## Products
 
-| Product | Platform | Description | Latest |
-|---------|:--------:|-------------|:------:|
-| Insight Camera (スッキリカメラ) | Android | A simple, beautiful camera app | v1.0.0 |
-| Insight Training Studio (INMV) | Windows | Education video authoring tool (PPTX → narrated MP4 / SCORM) | v1.0.7 |
-| Insight Performance Management (IOSH) | Windows | Excel-based management & AI analysis | v1.0.5 |
-| Insight Deck Quality Gate (INSS) | Windows | PowerPoint content management & AI editing | v1.0.5 |
-| Insight Doc Translator (INST) | Windows | AI-powered multilingual document translation | v1.0.4 |
-| InsightPy (INPY) | Windows | Python learning & automation studio (bundled Python, RPA) | v1.0.2 |
+| Product | What it does | Latest | Product page |
+|---|---|:---:|---|
+| Insight Training Studio | Turn PowerPoint into narrated training videos (MP4 / SCORM 1.2) | v1.1.3 | [Details](https://www.insight-office.com/ja/products/insight-training-studio?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| Insight Doc Translator | Translate PDF / Word / Excel / PowerPoint while keeping the layout | v1.0.9 | [Details](https://www.insight-office.com/ja/products/insight-doc-translator?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| InsightPy | Python learning and Office automation, no setup (Python bundled) | v1.0.6 | [Details](https://python.h-insight.jp/?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| Insight Milestone | Team schedules on a single timeline (free trial) | v0.3.0 | [Details](https://www.insight-office.com/ja/products/insight-milestone?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| Insight Office | Word / Excel / PowerPoint / PDF in one app | v1.0.4 | [Details](https://www.insight-office.com/ja/products/insight-office?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
 
-## Installation
+Installers for every version are on the [Releases page](https://github.com/HarmonicInsight/cross-releases/releases).
+Mobile apps: [Google Play](https://play.google.com/store/apps/dev?id=8493363519214339034) / [App Store](https://apps.apple.com/developer/id6779485494).
 
-### Android
-- Install from [Google Play Store](https://play.google.com/store/apps/details?id=com.harmonic.insight.camera)
-- Or download the APK from the Releases page and sideload
+## Installation (Windows)
 
-### Windows
-1. Download the latest installer (`.exe`) from the Releases page
-2. Run the installer and follow the on-screen instructions
+1. Download the latest `_Setup_*.zip` from the product page or the Releases page
+2. Extract it and run the installer
 
-### If Windows SmartScreen blocks the installer
-
-Our installers are currently distributed **unsigned** (code signing is on our roadmap).
-When you run the installer for the first time, Windows may show a blue full-screen warning:
-
-> **Windows protected your PC**
-> Microsoft Defender SmartScreen prevented an unrecognized app from starting.
-> Running this app might put your PC at risk.
-
-This warning is shown for **all new or low-volume Windows installers** — it does not mean the
-file is malicious. To install our app:
-
-1. On the blue warning screen, click **More info** (small link below the message)
-2. A **Run anyway** button will appear — click it to start the installer
-3. The Windows UAC prompt (yes/no) will follow — click **Yes** to proceed
-
-To verify the installer is genuine before running, check the SHA-256 hash against the values
-published below (see *Verifying downloads*).
+Current installers are EV code-signed (publisher: **HARMONIC INSIGHT LLC**).
+On the first downloads of a new version, Microsoft Defender SmartScreen may still show
+"Windows protected your PC" until reputation builds. Click **More info** → **Run anyway**
+and check that the publisher is HARMONIC INSIGHT LLC.
 
 ## Verifying downloads (SHA-256)
 
-For enterprise users and security-conscious customers, verify the integrity of downloaded files
-using SHA-256 hashes published with each release.
-
-### Insight Training Studio v1.0.7
-
-```
-749B488E11D5070DD0C3D339544B0C43AA3803A6747FDFC153198493BEDEF899  InsightTrainingStudio_Setup_1.0.7.exe
-BF671964DE39A5F04125310036F7971B8F1803CE6889B94F98E114E7AFEF7DA9  InsightTrainingStudio_Setup_1.0.7.zip
-```
-
-### Insight Doc Translator v1.0.4
-
-```
-EF1E4B950FE0BE4F5853E7C3BE3C7D5A5F0037A2401FD77E30D17CD7B9B5E09E  InsightDocTranslator_Setup_1.0.4.exe
-DA313351AA1C8EDA98F78D1EEACFB82F5272F7DBA8D253ECE000EE975D0C7FB8  InsightDocTranslator_Setup_1.0.4.zip
-```
-
-### InsightPy v1.0.2
-
-> EV code-signed (GlobalSign EV · HARMONIC insight LLC). As a brand-new publisher, SmartScreen may still show an "unrecognized app" prompt on the first downloads until reputation builds — click **More info** → **Run anyway** (the publisher shows as HARMONIC INSIGHT LLC).
-
-```
-A77EAC0493D71414CFE7850E5BEDF7E53B80AA824C311940FEFC39560D6F9583  InsightPy_Setup_1.0.2.exe
-9A2B239494ADEA158075C40DA5979D5CB912242A366B281F9B1685D957071C6C  InsightPy_Setup_1.0.2.zip
-```
-
-### How to verify (PowerShell)
+Each release lists the SHA-256 of its files. To check a download in PowerShell:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\InsightTrainingStudio_Setup_1.0.7.exe
+Get-FileHash .\<downloaded file> -Algorithm SHA256
 ```
 
-### How to verify (Linux/macOS)
+Compare the result with the value on the release page.
 
-```bash
-sha256sum InsightTrainingStudio_Setup_1.0.7.exe
-```
+## Support
 
-The output hash must match the value above.
-
-## File associations
-
-| Extension | Product | Description |
-|-----------|---------|-------------|
-| `.pptx`   | Insight Training Studio | Single-file project format (project metadata embedded as `customXml`) |
-| `.iosh`   | Insight Performance Management | Project files |
-| `.inss`   | Insight Deck Quality Gate | Project files |
-
-## License
-
-License information is available from the Windows program list and inside each application's
-license screen. All products are usable on the FREE plan with basic functionality without
-entering a license key after installation.
-
----
-
-Copyright (C) 2026 HARMONIC insight
+support@h-insight.jp — HARMONIC insight LLC

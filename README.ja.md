@@ -1,100 +1,40 @@
-# Insight Business Suite — Releases
+# HARMONIC insight — リリース配布
 
 > 🇬🇧 [English README](./README.md)
 
-HARMONIC insight のプロダクトリリースを管理するリポジトリです。
-
-## ダウンロード
-
-[Releases ページ](https://github.com/HarmonicInsight/cross-releases/releases) からインストーラーをダウンロードしてください。
+ハーモニックインサイト合同会社（HARMONIC insight）の Windows アプリの公式配布リポジトリです。
+製品サイト: **[insight-office.com](https://www.insight-office.com/ja?utm_source=github&utm_medium=readme&utm_campaign=cross-releases)**（日本語） / **[insightoffice.io](https://insightoffice.io/?utm_source=github&utm_medium=readme&utm_campaign=cross-releases)**（English）
 
 ## 製品一覧
 
-| 製品 | プラットフォーム | 説明 | 最新バージョン |
-|------|:----------------:|------|:--------------:|
-| スッキリカメラ (Insight Camera) | Android | シンプルで美しいカメラアプリ | v1.0.0 |
-| Insight Training Studio (INMV) | Windows | 教育動画作成ツール (PPTX → ナレーション付き MP4 / SCORM) | v1.0.7 |
-| Insight Performance Management (IOSH) | Windows | Excel 版管理・AI 分析ツール | v1.0.5 |
-| Insight Deck Quality Gate (INSS) | Windows | PowerPoint コンテンツ管理・AI 編集ツール | v1.0.5 |
-| Insight Doc Translator (INST) | Windows | AI 多言語ドキュメント翻訳ツール | v1.0.4 |
-| InsightPy (INPY) | Windows | Python 学習・自動化スタジオ（Python 同梱・RPA） | v1.0.2 |
+| 製品 | できること | 最新版 | 製品ページ |
+|---|---|:---:|---|
+| Insight Training Studio | PowerPoint からナレーション付きの研修動画（MP4 / SCORM 1.2）を作る | v1.1.3 | [詳しく](https://www.insight-office.com/ja/products/insight-training-studio?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| Insight Doc Translator | PDF・Word・Excel・PowerPoint をレイアウトそのまま翻訳する | v1.0.9 | [詳しく](https://www.insight-office.com/ja/products/insight-doc-translator?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| InsightPy | 環境構築なしで Python の学習と Office の自動化（Python 同梱） | v1.0.6 | [詳しく](https://python.h-insight.jp/?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| Insight Milestone | チームの日程を1本の線表で管理する（無料体験版） | v0.3.0 | [詳しく](https://www.insight-office.com/ja/products/insight-milestone?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
+| Insight Office | Word・Excel・PowerPoint・PDF をひとつのアプリで扱う | v1.0.4 | [詳しく](https://www.insight-office.com/ja/products/insight-office?utm_source=github&utm_medium=readme&utm_campaign=cross-releases) |
 
-## インストール方法
+過去の版を含むすべてのインストーラーは [Releases ページ](https://github.com/HarmonicInsight/cross-releases/releases) にあります。
+スマホアプリ: [Google Play](https://play.google.com/store/apps/dev?id=8493363519214339034) / [App Store](https://apps.apple.com/developer/id6779485494)
 
-### Android アプリ
-- [Google Play Store](https://play.google.com/store/apps/details?id=com.harmonic.insight.camera) からインストール
-- または Releases ページから APK をダウンロードしてサイドロード
+## インストール方法（Windows）
 
-### Windows アプリ
-1. Releases ページから最新のインストーラー (`.exe`) をダウンロード
-2. ダウンロードしたファイルを実行
-3. 画面の指示に従ってインストール
+1. 製品ページか Releases ページから最新の `_Setup_*.zip` をダウンロード
+2. 展開してインストーラーを実行
 
-### Windows SmartScreen 警告が出た場合
+現在のインストーラーは EV コード署名済みです（発行元: **HARMONIC INSIGHT LLC**）。
+新しい版の配布直後は、Microsoft Defender SmartScreen が「Windows によって PC が保護されました」と表示することがあります。
+その場合は「詳細情報」→「実行」を押し、発行元が HARMONIC INSIGHT LLC であることを確かめてください。
 
-現在、インストーラーは**コード署名未対応**で配布されています (今後対応予定)。
-初回実行時、Windows が以下のような青い全画面警告を表示する場合があります:
+## ダウンロードの検証（SHA-256）
 
-> **Windows によって PC が保護されました**
-> Microsoft Defender SmartScreen は認識されないアプリの起動を停止しました。
-> このアプリを実行すると、PC に問題が起こる可能性があります。
-
-これは **新しい配布元・配布数の少ないインストーラー全般**で表示される警告で、
-ファイルが悪意あるものという意味ではありません。インストールを続行する手順:
-
-1. 青い警告画面の左下にある **「詳細情報」** をクリック
-2. 隠れていた **「実行」** ボタンが表示されるのでクリック
-3. 続いて Windows のユーザーアカウント制御 (UAC) が表示されたら **「はい」** を選択
-
-インストーラーが正規のものかを実行前に確認したい場合は、下記の SHA-256 ハッシュと
-照合してください (「ダウンロード検証」セクション参照)。
-
-## ダウンロード検証 (SHA-256)
-
-法人ユーザー・セキュリティ担当者向けに、各リリースで公開している SHA-256 ハッシュにより
-ダウンロードファイルの完全性を検証できます。
-
-### Insight Training Studio v1.0.7
-
-```
-749B488E11D5070DD0C3D339544B0C43AA3803A6747FDFC153198493BEDEF899  InsightTrainingStudio_Setup_1.0.7.exe
-BF671964DE39A5F04125310036F7971B8F1803CE6889B94F98E114E7AFEF7DA9  InsightTrainingStudio_Setup_1.0.7.zip
-```
-
-### Insight Doc Translator v1.0.4
-
-```
-EF1E4B950FE0BE4F5853E7C3BE3C7D5A5F0037A2401FD77E30D17CD7B9B5E09E  InsightDocTranslator_Setup_1.0.4.exe
-DA313351AA1C8EDA98F78D1EEACFB82F5272F7DBA8D253ECE000EE975D0C7FB8  InsightDocTranslator_Setup_1.0.4.zip
-```
-
-### 検証方法 (PowerShell)
+各リリースのページにファイルの SHA-256 を載せています。PowerShell での確認方法:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\InsightTrainingStudio_Setup_1.0.7.exe
+Get-FileHash .\<ダウンロードしたファイル> -Algorithm SHA256
 ```
 
-### 検証方法 (Linux/macOS)
+## お問い合わせ
 
-```bash
-sha256sum InsightTrainingStudio_Setup_1.0.7.exe
-```
-
-出力されるハッシュ値が上記と一致することをご確認ください。
-
-## ファイル関連付け
-
-| 拡張子 | 製品 | 説明 |
-|--------|------|------|
-| `.pptx` | Insight Training Studio | 単一ファイル運用 (プロジェクトメタデータは `customXml` に埋め込み) |
-| `.iosh` | Insight Performance Management | プロジェクトファイル |
-| `.inss` | Insight Deck Quality Gate | プロジェクトファイル |
-
-## ライセンス
-
-Windows のプログラム一覧、アプリ内のライセンス画面からご確認いただけます。
-インストール後にライセンスキー未入力でも FREE プランとして基本機能をお使いいただけます。
-
----
-
-Copyright (C) 2026 HARMONIC insight
+support@h-insight.jp — ハーモニックインサイト合同会社
